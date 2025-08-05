@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/skrish3024/devops-qr-code.git'
+                git branch: 'main', url: 'https://github.com/Krish3024/devops-qr-code.git'
             }
         }
 
